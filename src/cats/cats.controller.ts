@@ -8,7 +8,7 @@ export class CatsController {
     return 'This action adds a new cat!';
   }
 
-  @Get()
+  @Get('/abc')
   findAll(@Req() request: Request): string {
     return 'This action returns all cats!';
   }
